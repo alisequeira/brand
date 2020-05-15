@@ -1,0 +1,85 @@
+.gridContainer {
+  max-width: 900px;
+  margin: auto;
+}
+.row {
+  display: flex;
+}
+
+.colum-1 {
+  width: 8.333333333333333%;
+}
+.colum-2 {
+  width: 16.66666666666667%;
+}
+.colum-3 {
+  width: 25%;
+}
+.colum-4 {
+  width: 33.33333333333333%;
+}
+.colum-5 {
+  width: 41.66666666666667%;
+}
+.colum-6 {
+  width: 49.99999999999998%;
+}
+.colum-7 {
+  width: 58.33333333333333%;
+}
+.colum-8 {
+  width: 66.66666666666666%;
+}
+.colum-9 {
+  width: 75%;
+}
+.colum-10 {
+  width: 83.33333333333333%;
+}
+.colum-11 {
+  width: 91.66666666666666%;
+}
+.colum-12 {
+  width: 100%;
+}
+
+.colum-1,
+.colum-2,
+.colum-3,
+.colum-4,
+.colum-5,
+.colum-6,
+.colum-7,
+.colum-8,
+.colum-9,
+.colum-10,
+.colum-11,
+.colum-12 {
+  padding: 10px;
+}
+@media (max-width: 900px) {
+  .row {
+    display: inherit;
+  }
+  .colum-1,
+  .colum-2,
+  .colum-3,
+  .colum-4,
+  .colum-5,
+  .colum-6,
+  .colum-7,
+  .colum-8,
+  .colum-9,
+  .colum-10,
+  .colum-11,
+  .colum-12 {
+    width: 100%;
+  }
+}
+
+.row p {
+  font-size: 30px;
+}
+.row h1 {
+  font-size: 50px;
+}
